@@ -26,12 +26,12 @@
     },
     "dark": {
       "primary": "86a2ba",
-      "secondary": "272b30",
-      "tertiary": "2c7df7",
+      "secondary": "101622",
+      "tertiary": "4fbcff",
       "quaternary": "0c111b",
       "header_background": "ffffff",
       "header_primary": "123262",
-      "highlight": "1a2734",
+      "highlight": "212c47",
       "danger": "de5739",
       "success": "009900",
       "love": "293758"
