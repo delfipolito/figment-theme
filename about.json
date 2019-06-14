@@ -1,0 +1,28 @@
+{
+  "name": "Agora",
+  "component": false,
+  "license_url": "https://gitlab.com/tezosagora/discourse-agora-theme/blob/master/LICENSE",
+  "about_url": "https://gitlab.com/tezosagora/discourse-agora-theme",
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+    "RobotoLight": "assets/RobotoLight.ttf",
+    "RobotoRegular": "assets/RobotoRegular.ttf"
+  },
+  "color_schemes": {
+    "agora": {
+      "primary": "123262",
+      "secondary": "f9fafc",
+      "tertiary": "2c7df7",
+      "quaternary": "e6eaf2",
+      "header_background": "191414",
+      "header_primary": "ffffff",
+      "highlight": "ffffff",
+      "danger": "de5739",
+      "success": "009900",
+      "love": "f9fafc"
+    }
+  }
+}
