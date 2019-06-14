@@ -16,9 +16,6 @@ body {
 }
 
 // header
-.d-header {
-  background-color: #123262;
-}
 .d-header-icons .icon:hover,
 .d-header-icons .icon:focus {
   background: transparent;
@@ -152,6 +149,7 @@ button.btn-primary {
       }
     }
     tr:last-child {
+      border-bottom: 0px solid transparent;
       td:first-child {
         border-bottom-left-radius: 6px;
       }
@@ -468,7 +466,7 @@ nav.post-controls button:focus {
 
 // Footer
 .footer-section {
-  background-color: $header-primary;
+  background-color: #f1f6fe;
   width: calc(100% - 30px);
   padding: 30px 15px;
   position: relative;
@@ -593,7 +591,7 @@ nav.post-controls button:focus {
 
 // Hero
 .hero {
-  background: #fff;
+  background: #f1f6fe;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -609,7 +607,7 @@ nav.post-controls button:focus {
     left: 50%;
     top: 38%;
     transform: translate(-50%);
-    color: #000;
+    color: #123262;
     font-family: "RobotoLight", sans-serif;
     line-height: 40px;
     font-size: 30px;
@@ -632,7 +630,7 @@ nav.post-controls button:focus {
       line-height: 56px;
       font-size: 42px;
       font-weight: 100;
-      color: #000;
+      color: #123262;
       transform: none;
       position: inherit;
       text-align: left;
@@ -750,7 +748,8 @@ a.mention-group {
 }
 
 .composer-popup {
-  color: white;
+  color: #191414;
+  background: #d0cfcd;
 }
 
 .moderator .regular>.cooked {
@@ -767,5 +766,8 @@ a.mention-group {
 #topic-title h1 .d-icon-envelope {
   position: relative;
   top: 11px;
-} 
+}
 
+.topic-avatar, .topic-body {
+  border-top: 0;
+}
