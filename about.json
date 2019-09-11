@@ -8,9 +8,9 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "Roboto-Regular": "assets/Roboto-Regular.ttf"
     "Roboto-Bold": "assets/Roboto-Bold.ttf",
-    "Roboto-Light": "assets/Roboto-Light.ttf"
+    "Roboto-Light": "assets/Roboto-Light.ttf",
+    "Roboto-Regular": "assets/Roboto-Regular.ttf"
   },
   "color_schemes": {
     "light": {
