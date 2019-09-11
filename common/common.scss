@@ -1,17 +1,24 @@
 // Font
 
 @font-face {
-  font-family: 'RobotoRegular';
-  src: url($RobotoRegular);
+  font-family: 'Roboto';
+  src: url($Roboto-Regular);
 }
 
 @font-face {
-  font-family: 'RobotoLight';
-  src: url($RobotoLight);
+  font-family: 'Roboto';
+  src: url($Roboto-Bold);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url($Roboto-Light);
+  font-weight: 300;
 }
 
 body {
-  font-family: "RobotoRegular", sans-serif;
+  font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
 
@@ -205,7 +212,6 @@ aside.onebox {
   border: 0px solid transparent;
 }
 .names span a {
-  color: $header-background;
   font-size: 18px;
   line-height: 45px;
 }
@@ -623,11 +629,11 @@ nav.post-controls button:focus {
     top: 38%;
     transform: translate(-50%);
     color: #fff;
-    font-family: "RobotoLight", sans-serif;
+    font-family: "Roboto", sans-serif;
     line-height: 40px;
     font-size: 30px;
     text-align: center;
-    font-weight: 100;
+    font-weight: 300;
   }
 }
 
@@ -641,10 +647,10 @@ nav.post-controls button:focus {
     top: 60px;
     h1 {
       display: block;
-      font-family: "RobotoLight", sans-serif;
+      font-family: "Roboto", sans-serif;
       line-height: 56px;
       font-size: 42px;
-      font-weight: 100;
+      font-weight: 300;
       color: #fff;
       transform: none;
       position: inherit;

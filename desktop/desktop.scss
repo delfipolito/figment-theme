@@ -1,0 +1,7 @@
+.hero, .hero-container {
+  display: none;
+}
+
+.anon .hero, .anon .hero-container {
+  display: flex;
+}
