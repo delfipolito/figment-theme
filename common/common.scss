@@ -757,7 +757,7 @@ a.mention-group {
   background-color: transparent;
 }
 
-.menu-panel li a.widget-link:hover {
+.menu-panel li a.widget-link:hover, .user-menu .quick-access-panel li:hover {
   background-color: #f1f6fe;
 }
 
