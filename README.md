@@ -1,3 +1,3 @@
-# discourse-agora-theme
+# discourse-figment-theme
 
-*Theme used on forum.tezosagora.org*
+*Theme used on forum.figment.io*

@@ -1,8 +1,8 @@
 {
-  "name": "Agora",
+  "name": "Figment",
   "component": false,
-  "license_url": "https://gitlab.com/tezosagora/discourse-agora-theme/blob/master/LICENSE",
-  "about_url": "https://gitlab.com/tezosagora/discourse-agora-theme",
+  "license_url": "https://gitlab.com/figment-networks/discourse-figment-theme/blob/master/LICENSE",
+  "about_url": "https://gitlab.com/figment-networks/discourse-figment-theme",
   "authors": null,
   "theme_version": null,
   "minimum_discourse_version": null,
