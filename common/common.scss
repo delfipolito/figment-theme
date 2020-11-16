@@ -470,7 +470,7 @@ nav.post-controls button:focus {
   margin: auto;
 }
 .logo-footer-img {
-  height: 50px;
+  height: 22px;
 }
 .footer-container {
   display: grid;
@@ -552,9 +552,13 @@ nav.post-controls button:focus {
   padding: 0 15px;
   text-decoration: none;
 }
-.footer-icon {
-  height: 26px;
-  width: 26px;
+.telegram-icon {
+  height: 25px;
+  width: 25px;
+}
+.discord-icon {
+  height: 30px;
+  width: 30px;
 }
 
 #footer_links a {
