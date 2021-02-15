@@ -38,6 +38,7 @@ body {
 //Category images
 .category-title-link {
   display: flex; 
+  align-items: center;
 }
 
 .category-text-title {
@@ -52,5 +53,5 @@ body {
 }
 
 .category-logo.aspect-image{
-  width: 20px;
+  width: 33px;
 }
