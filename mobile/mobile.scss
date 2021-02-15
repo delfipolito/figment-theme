@@ -33,3 +33,24 @@ body {
 .hero, .hero-container {
   display: none;
 }
+
+
+//Category images
+.category-title-link {
+  display: flex; 
+}
+
+.category-text-title {
+  display: flex;
+  align-items: center;
+  order: 2;
+  margin-left: 20px;
+}
+
+.category-name {
+  margin-bottom: 10px;
+}
+
+.category-logo.aspect-image{
+  width: 20px;
+}
