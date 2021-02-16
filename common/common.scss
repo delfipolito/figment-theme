@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: 'AustinCyr-Roman';
-  src: url($AustinCyr);
+  src: url($AustinCyr-Roman);
 }
 
 
@@ -604,7 +604,7 @@ nav.post-controls button:focus {
     top: 38%;
     transform: translate(-50%);
     color: #fff;
-    font-family: "AustinCyr", serif, "Georgia";
+    font-family: "AustinCyr-Roman", serif, "Georgia";
     line-height: 40px;
     font-size: 30px;
     text-align: center;
@@ -625,7 +625,7 @@ nav.post-controls button:focus {
     top: 60px;
     h1 {
       display: block;
-      font-family: "AustinCyr", serif, "Georgia";
+      font-family: "AustinCyr-Roman", serif, "Georgia";
       line-height: 56px;
       font-size: 42px;
       font-weight: 300;
