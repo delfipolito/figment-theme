@@ -10,11 +10,6 @@
   src: url($AustinCyr);
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url($Inter);
-}
-
 
 @font-face {
   font-family: 'Roboto';
@@ -641,7 +636,7 @@ nav.post-controls button:focus {
       text-align: left;
     }
     p {
-      font-family: "Inter", "Roboto"
+      font-family: "Roboto"
       text-align: center;
       margin-bottom: 0px;
       margin-top: 2px;
