@@ -614,14 +614,10 @@ nav.post-controls button:focus {
     transform: translate(-50%);
     color: #fff;
     font-family: "AustinCyr", "Roboto", serif, "Georgia";
-    line-height: 40px;
-    font-size: 30px;
     text-align: center;
     font-weight: 300;
   }
-  p {
-    font-family: "Inters", "Roboto";
-  }
+  
 }
 
 .hero-container {
@@ -635,8 +631,9 @@ nav.post-controls button:focus {
     h1 {
       display: block;
       font-family: "AustinCyr", "Roboto", serif, "Georgia";
-      line-height: 56px;
-      font-size: 42px;
+      line-height: 58px;
+      font-size: 54px;
+      margin-bottom: 24px;
       font-weight: 300;
       color: #fff;
       transform: none;
@@ -644,7 +641,12 @@ nav.post-controls button:focus {
       text-align: left;
     }
     p {
-      font-family: "Roboto"
+      font-family: "Inter", "Roboto"
+      text-align: center;
+      margin-bottom: 0px;
+      margin-top: 2px;
+      color: white;
+      font-size: 19px;
     }
   }
 }
