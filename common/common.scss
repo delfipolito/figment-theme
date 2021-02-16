@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: 'AustinCyr';
+  src: url($AustinCyr);
+}
+
+@font-face {
   font-family: 'Roboto';
   src: url($Roboto-Bold);
   font-weight: bold;
@@ -602,7 +607,7 @@ nav.post-controls button:focus {
     top: 38%;
     transform: translate(-50%);
     color: #fff;
-    font-family: "Roboto", serif, "Georgia";
+    font-family: "AustinCyr", "Roboto", serif, "Georgia";
     line-height: 40px;
     font-size: 30px;
     text-align: center;
@@ -623,7 +628,7 @@ nav.post-controls button:focus {
     top: 60px;
     h1 {
       display: block;
-      font-family: "Roboto", serif, "Georgia";
+      font-family: "AustinCyr", "Roboto", serif, "Georgia";
       line-height: 56px;
       font-size: 42px;
       font-weight: 300;
