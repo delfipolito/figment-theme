@@ -11,6 +11,12 @@
 }
 
 @font-face {
+  font-family: 'Inter';
+  src: url($Inter);
+}
+
+
+@font-face {
   font-family: 'Roboto';
   src: url($Roboto-Bold);
   font-weight: bold;
@@ -614,7 +620,7 @@ nav.post-controls button:focus {
     font-weight: 300;
   }
   p {
-    font-family: "Roboto"
+    font-family: "Inters", "Roboto";
   }
 }
 
