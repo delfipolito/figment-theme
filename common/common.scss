@@ -706,7 +706,7 @@ footer {
 
 
 footer  .title {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', 'Roboto', serif;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -716,7 +716,7 @@ footer  .title {
 
 
 footer  .item {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', 'Roboto', serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -726,7 +726,7 @@ footer  .item {
 }
 
 footer .subtitle {
-  font-family: 'Inter', serif;
+  font-family: 'Inter', 'Roboto', serif;
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
@@ -745,4 +745,16 @@ footer .footer-icons {
 
 footer .footer-icon svg {
   height: 26px;
+}
+
+
+
+//Button create topic
+
+#create-topic .d-icon, #display-modes .btn-danger .d-icon, button.btn-primary .d-icon {
+    color: black;
+}
+#create-topic, #display-modes .btn-danger, button.btn-primary {
+  background: #FFF29B;
+  color: black;
 }
