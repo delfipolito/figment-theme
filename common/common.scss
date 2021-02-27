@@ -41,6 +41,10 @@ body {
   background: transparent;
 }
 
+.d-header-icons .d-icon {
+  color: white!important;
+}
+
 // List controls
 .list-controls .btn {
   height: 38px;
@@ -481,15 +485,18 @@ nav.post-controls button:focus {
     display: flex;
     position: absolute;
     left: 50%;
-    top: 38%;
+    top: 17%;
     transform: translate(-50%);
     color: #fff;
     font-family: "AustinCyr", "Roboto", serif, "Georgia";
     text-align: center;
-    font-weight: 300;
-    font-size: 54px;
+    font-weight: 400;
+    font-size: 32px;
     margin-bottom: 24px;
-    line-height: 58px;
+    line-height: 1;
+  }
+  p.first {
+    margin-top: 33px;
   }
   p {
     font-family: "Roboto";
@@ -497,7 +504,7 @@ nav.post-controls button:focus {
     margin-bottom: 0px;
     margin-top: 2px;
     color: #fff;
-    font-size: 19px;
+    font-size: 17px;
   }
 
 }
@@ -513,10 +520,10 @@ nav.post-controls button:focus {
     h1 {
       display: block;
       font-family: "AustinCyr", "Roboto", serif, "Georgia";
-      line-height: 58px;
-      font-size: 54px;
+      line-height: 1;
+      font-size: 61px;
       margin-bottom: 24px;
-      font-weight: 300;
+      font-weight: 400;
       color: #fff;
       transform: none;
       position: inherit;
@@ -529,6 +536,10 @@ nav.post-controls button:focus {
       margin-top: 2px;
       color: white;
       font-size: 19px;
+    }
+
+    p.first {
+      margin-top: 2px;
     }
   }
 }
