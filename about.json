@@ -11,7 +11,8 @@
     "Roboto-Bold": "assets/Roboto-Bold.ttf",
     "Roboto-Light": "assets/Roboto-Light.ttf",
     "Roboto-Regular": "assets/Roboto-Regular.ttf",
-    "AustinCyr": "assets/AustinCyr-Roman.ttf"
+    "AustinCyr": "assets/AustinCyr-Roman.ttf",
+    "Inter-Regular": "assets/Inter-Regular.ttf"
   },
   "color_schemes": {
     "light": {
