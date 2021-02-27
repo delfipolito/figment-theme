@@ -513,7 +513,7 @@ nav.post-controls button:focus {
   min-height: 290px;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 700px) {
   div.hero {
     justify-content: space-evenly;
     top: 60px;
@@ -707,12 +707,17 @@ a.mention-group {
 // Footer
 
 footer {
+  background: #111111;
+  padding: 40px;
+}
+
+.footer-wrap {
+  max-width: 1052px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
-  background: #111111;
-  padding: 40px;
+  margin: auto;
 }
 
 
